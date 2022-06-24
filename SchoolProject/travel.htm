@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>預定</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="travel">
+        <div class="reg">
+            <form id="form2" name="form2" method="post" action="travel.php">
+                <ul>
+                    <li>
+                        <label for="">姓名:</label>
+                        <input required name="name" id="name">
+                    </li>
+                    <li><label for="">選擇行程:</label>
+                      <select name="loc" id="loc">
+                        <option value="鹿點咖啡糸彔店"  selected="selected">鹿點咖啡糸彔店</option>
+                        <option value="四季花園" >四季花園</option>
+                        <option value="豪珈琲" >豪珈琲</option>
+                      </select>
+                    </li>
+                    <li>
+                        <label for="">人數:</label>
+                        <select name="num" id="num">
+                            <option value="1-2"  selected="selected">1-2</option>
+                            <option value="3-4" >3-4</option>
+                            <option value="5-6" >5-6</option>
+							<option value="7-8" >7-8</option>
+                            <option value="9-10" >9-10</option>
+							<option value="11-12" >11-12</option>
+                            
+                            </select>
+                    </li>
+                    <li>
+                        <label for="">手機:</label>
+                        <input required type="text" name="phone" id="phone">
+                    </li>
+                </ul>
+                <div class="button">
+                    <input type="submit" name="button" id="button" value="確認" />
+
+                </div>
+             
+         
+          </form>
+        </div>
+    </div>
+</body>
+</html>
